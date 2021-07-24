@@ -121,14 +121,16 @@ html {
 
 }
 
-.hero-desk span {
+.hero-span {
     font-weight: bold;
 }
+
 
 /*###about###*/
 
 .about {
-    padding: 173px 0;
+    padding: 155px 0;
+
 }
 
 .about-caption {
@@ -171,6 +173,7 @@ html {
 .about-vector {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 8px;
 }
 
 .about-vector span {
@@ -192,7 +195,125 @@ html {
 .about-text span {
     font-weight: bold;
 }
+/*###team###*/
+.team {
+    background: url("../images/teambg.png") no-repeat center/cover;
+    height: 550px;
+}
+.team-title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+    text-align: center;
+    padding-top: 76px;
+}
+.team-title:before{
+    position: absolute;
+    content: '';
+    width: 180px;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 4px solid #ADFF00;
+}
+.team-title:after{
+    position: absolute;
+    content: '';
+    width: 130px;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 4px solid rgba(173, 255, 0, 0.58);
+}
+.team-title span{
+    color: #a5f300;
+}
+.team-col{
+    text-align: center;
+    padding: 77px 30px 93px 30px;
+}
+.team-img{
+    width: 120px;
+    height: 120px;
+    background: #C4C4C4;
+    border-radius: 50vh;
+    display: inline-block;
+}
+.team-col-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 13px 0;
+}
+.team-col-desk{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.team-col-text{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    width: 229px;
+    margin-top: 13px;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*###services###*/
+.servrices{
+    text-align: center;
+}
+.services-title{
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 50px;
+    color: #090909;
+}
+.services-title span{
+    font-weight: bold;
+}
+.services-desk{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #000000;
+}
 /*###clients###*/
 
 .clients {
