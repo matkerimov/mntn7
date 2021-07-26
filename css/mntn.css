@@ -556,23 +556,72 @@ html {
     font-weight: bold;
 }
 
-.footer {
+.contacts {
     background: #090909;
+    padding: 43px 0 72px 0;
+    position: relative;
 }
 
-.footer-title {
+.contacts-title {
     font-size: 32px;
     line-height: 38px;
     text-transform: uppercase;
     color: #FFFFFF;
+    text-align: center;;
 }
 
-.footer-title span {
+.contacts-title span {
     color: #adff00;
 }
+.contacts-form{
+    width: 476px;
+    margin: 0 auto;
+}
+.contacts-upper-form{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts-upper-form input{
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    background-color: transparent;
+    width: 178px;
+    margin-top: 55px;
+}
+.contacts-email{
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+    background-color: transparent;
+    width: 100%;
+    margin: 55px 0 54px 0;
 
-
-
+}
+.contacts-btn{
+    font-weight: 500;
+    line-height: 19px;
+    color: #D5D6D8;
+    display: inline-block;
+    padding: 8px 59px;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+.contacts svg{
+    position: absolute;
+    top: -40px;
+    right: 133px;
+}
+.footer{
+    background: #000;
+}
+.footer-desk{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707173;
+}
 
 
 
