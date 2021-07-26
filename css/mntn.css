@@ -237,6 +237,10 @@ html {
     text-align: center;
     padding: 77px 30px 93px 30px;
 }
+.team-col:hover > .team-img{
+    border: 5px solid #ADFF00;
+    border-radius: 100px;
+}
 .team-img{
     width: 120px;
     height: 120px;
@@ -342,8 +346,13 @@ html {
 .services-col{
     margin-top: 92px;
     padding-bottom: 85px;
-
 }
+.services-col:hover > .services-item{
+    background: #ADFF00;
+}
+/*.services-col:hover > .services-item svg{*/
+/*    background: #FFFFFF;*/
+/*}*/
 .services-item{
     width: 120px;
     height: 120px;
@@ -357,7 +366,7 @@ html {
     position: absolute;
     top: 34px;
     bottom: 35px;
-    right: 33px;
+    right: 32px;
     left: 32px;
 
 }
@@ -418,11 +427,11 @@ html {
 .clients-box {
     margin-top: 63px;
 }
-.clients-col{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+/*.clients-col{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
 
 .clients-icon {
     display: flex;
