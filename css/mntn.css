@@ -350,6 +350,9 @@ html {
 .services-col:hover > .services-item{
     background: #ADFF00;
 }
+.services-col:hover .services-item path{
+    fill: #FFFFFF;
+}
 /*.services-col:hover > .services-item svg{*/
 /*    background: #FFFFFF;*/
 /*}*/
@@ -368,7 +371,6 @@ html {
     bottom: 35px;
     right: 32px;
     left: 32px;
-
 }
 .services-col-title{
     font-weight: bold;
@@ -391,6 +393,7 @@ html {
     background: url("../images/computer-bg.png") no-repeat center/cover;
     height: 100vh;
     padding: 46px;
+    text-align: center;
 }
 
 .clients-title {
